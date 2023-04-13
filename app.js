@@ -258,7 +258,7 @@ $(document).ready(function () {
         
             $('body').css('left', '-125px');
             $('.body_overlay').css('display', 'block');
-            $('#Side_slide').css('right', '1px').attr('aria-expanded','true');
+            $('#Side_slide').css('right', '0px').attr('aria-expanded','true');
 
     })
     $('.icon-cancel-fine').on("click", function () {
